@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MCfFs2T37/bSo/xFWU+hcp3iLlIJqj1uXlL+iwAgNmFOcVVauUlLfqkrv7iOeXa2krsHB5cHsgej5P9qDGPZBA==",
+  "dgSpecHash": "egHE7x+u6uda/RF33HZsLpPISTyksuOVfi1nUagBgQMRLAlkezdTUBykCFv2IAOQxtX+OUbttsf3G+mdPF2IQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\leeeo\\OneDrive\\Documents\\CursoDotNetWebApi\\IWantApp\\IWantApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leeeo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\leeeo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\leeeo\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\leeeo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\leeeo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\leeeo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
