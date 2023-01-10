@@ -65,3 +65,5 @@ C:\Users\leeeo\OneDrive\Documents\CursoDotNetWebApi\IWantApp\bin\Debug\net6.0\ru
 C:\Users\leeeo\OneDrive\Documents\CursoDotNetWebApi\IWantApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\leeeo\OneDrive\Documents\CursoDotNetWebApi\IWantApp\bin\Debug\net6.0\Flunt.dll
 C:\Users\leeeo\OneDrive\Documents\CursoDotNetWebApi\IWantApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\leeeo\OneDrive\Documents\CursoDotNetWebApi\IWantApp\bin\Debug\net6.0\Dapper.dll
+C:\Users\leeeo\OneDrive\Documents\CursoDotNetWebApi\IWantApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

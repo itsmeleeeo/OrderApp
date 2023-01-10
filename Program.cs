@@ -1,6 +1,7 @@
 using IWantApp.Domain.Products;
 using IWantApp.Endpoints.Categories;
 using IWantApp.Endpoints.Employees;
+using IWantApp.Endpoints.Security;
 using IWantApp.Infra.Data;
 using Microsoft.AspNetCore.Identity;
 
@@ -15,6 +16,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => {
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<QueryAllUsersWithClaimName>();
 
 var app = builder.Build();
 
@@ -32,5 +34,7 @@ app.MapMethods(CategoryPut.Template, CategoryPut.Methods, CategoryPut.Handler);
 
 app.MapMethods(EmployeeGet.Template, EmployeeGet.Methods, EmployeeGet.Handler);
 app.MapMethods(EmployeePost.Template, EmployeePost.Methods, EmployeePost.Handler);
+
+app.MapMethods(TokenPost.Template, TokenPost.Methods, TokenPost.Handler);
 
 app.Run();
