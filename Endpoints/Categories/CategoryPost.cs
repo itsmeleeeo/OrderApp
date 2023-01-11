@@ -9,7 +9,6 @@ public class CategoryPost
     public static string[] Methods => new string[] { HttpMethod.Post.ToString()};
     public static Delegate Handler => Action;
 
-    [Authorize]
     public static IResult Action(CategoryRequest categoryRequest, ApplicationDbContext context)
     {
         var category = new Category(categoryRequest.Name, "Test", "Test");
