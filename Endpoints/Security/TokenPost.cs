@@ -33,11 +33,12 @@ public class TokenPost
         {
             Subject = new ClaimsIdentity(new Claim[]
         {
-            new Claim(ClaimTypes.Email, loginRequest.Email)
+            new Claim(ClaimTypes.Email, loginRequest.Email),
         }),
-        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
             Audience = configuration["JWTBearerTokenSettings:Audience"],
-            Issuer = configuration["JWTBearerTokenSettings:Issuer"]
+            Issuer = configuration["JWTBearerTokenSettings:Issuer"],
+            Expires = DateTime.UtcNow.AddMinutes(30)
         };
 
         var tokenHandler = new JwtSecurityTokenHandler();
